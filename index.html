@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Slide Form</title>
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
   </head>
   <body>
 
@@ -13,20 +15,29 @@
           <p>
             Banjo tote bag bicyclerights.  High life santorial cray craft beer whatever street art fap.
           </p>
-          <button type="button" name="button">Sign Up</button>
+          <button type="button" name="sign-up">Sign Up</button>
       </div>
 
       <form class="" action="index.html" method="post">
         <h2>Log In</h2>
 
-        <input type="email" name="email" value="Email">
-        <input type="text" name="password" value="Password">
+        <div class="email">
+          <input type="email" name="email" value="Email">
+        </div>
+        <div class="password">
+          <input type="text" name="password" value="Password">
+        </div>
 
         <button type="button" name="forgot">Forgot Password?</button>
         <button type="button" name="log-in">Log In</button>
       </form>
 
-    </section>
+      <form class="hidden" action="index.html" method="post">
 
+      </form>
+
+    </section>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="js/app.js"></script>
   </body>
 </html>
